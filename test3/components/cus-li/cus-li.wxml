@@ -1,0 +1,4 @@
+<view class="cus-item">
+  <text>{{name}}</text>
+  <text>{{count}} 个</text>
+</view>

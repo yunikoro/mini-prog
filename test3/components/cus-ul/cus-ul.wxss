@@ -1,0 +1,3 @@
+.ul-show {
+  border: 12rpx solid powderblue; 
+}

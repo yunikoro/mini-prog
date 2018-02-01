@@ -1,0 +1,4 @@
+<view class="ul-show">
+  <button bindtap="_getAllLi">get all li</button>
+  <slot></slot>
+</view>

@@ -1,0 +1,8 @@
+<test test-pro="{{result}}">
+  test
+</test>
+<input class="number-big" type="number" value="32" bindinput="doInput" />
+<cus-ul>
+  <cus-li name="天" count="6"></cus-li>
+  <cus-li name="地" count="8" data-set="12"></cus-li>
+</cus-ul>

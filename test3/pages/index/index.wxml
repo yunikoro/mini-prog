@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view>
+    <button bindtap="dataBind">data bind</button>
+    <button bindtap="clickDemo">click demo</button>
+    <button bindtap="custcomp">custom component</button>
+</view>

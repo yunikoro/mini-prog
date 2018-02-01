@@ -3,4 +3,5 @@
     <button bindtap="dataBind">data bind</button>
     <button bindtap="clickDemo">click demo</button>
     <button bindtap="custcomp">custom component</button>
+    <button bindtap="apiTest">api test</button>
 </view>

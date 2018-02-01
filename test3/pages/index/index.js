@@ -32,6 +32,11 @@ Page({
       complete: function(res) {},
     })
   },
+  apiTest: function() {
+    wx.navigateTo({
+      url: '../api/api',
+    })
+  },
   onLoad: function () {
 
   }

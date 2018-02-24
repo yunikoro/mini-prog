@@ -9,8 +9,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.7.3",
-	"appid": "wx13f8733ea66a9b67",
-	"projectname": "test3",
+	"appid": "wx15b96f75eba141ef",
+	"projectname": "test4",
 	"isGameTourist": false,
 	"condition": {
 		"search": {
@@ -26,8 +26,14 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
-			"list": []
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "couponList",
+					"pathName": "pages/couponList/couponList"
+				}
+			]
 		}
 	}
 }

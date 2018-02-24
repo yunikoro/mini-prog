@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "test": "/components/test/test",
+    "cus-ul": "/components/cus-ul/cus-ul",
+    "cus-li": "/components/cus-li/cus-li"
+  }
+}

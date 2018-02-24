@@ -1,0 +1,23 @@
+/**
+ *  flex style css util
+ */
+
+.to-flex {
+    display: flex;
+}
+
+.in-col {
+    flex-direction: column;
+}
+
+.set-center {
+    justify-content: center;
+}
+
+.set-bet {
+    justify-content: space-between;
+}
+
+.set-end {
+    justify-content: flex-end;
+}

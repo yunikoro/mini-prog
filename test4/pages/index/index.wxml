@@ -4,5 +4,7 @@
     <button bindtap="clickDemo">click demo</button>
     <button bindtap="custcomp">custom component</button>
     <button bindtap="apiTest">api test</button>
-    <navigator url="../testcomp/testcomp?id=6">component</navigator>    
+    <navigator url="/pages/scroll/scroll">scroll</navigator>
+    <navigator url="../testcomp/testcomp?id=6">component</navigator>
+    <navigator url="../couponList/couponList">couponList</navigator>    
 </view>

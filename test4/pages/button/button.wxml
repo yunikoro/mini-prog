@@ -1,0 +1,5 @@
+<view>
+  <button bindtap="tapEleInfo">tapdemo</button>
+  <button bindgetphonenumber="getPhone" open-type="getPhoneNumber">get phone</button>
+  <button bindtap="login">login</button>
+</view>

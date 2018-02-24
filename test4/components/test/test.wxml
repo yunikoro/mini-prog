@@ -1,0 +1,4 @@
+<view class="txt-style">
+  <slot></slot>
+  <text>red</text>
+</view>

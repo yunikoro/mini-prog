@@ -6,7 +6,9 @@
     "pages/databind/databind",
     "pages/cuscomp/cuscomp",
     "pages/api/api",
-    "pages/testcomp/testcomp"
+    "pages/testcomp/testcomp",
+    "pages/scroll/scroll",
+    "pages/couponList/couponList"
   ],
   "window": {
     "backgroundTextStyle": "light",

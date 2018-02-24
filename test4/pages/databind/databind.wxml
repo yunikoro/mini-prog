@@ -1,0 +1,7 @@
+<view>
+  <block wx:for="{{[4, 5, 6]}}">
+    <view class="center">
+      <text>{{index}}: {{item}}</text>
+    </view>
+  </block>
+</view>

@@ -1,0 +1,15 @@
+.font-48 {
+  font-size: 48rpx;
+}
+
+.font-36 {
+  font-size: 36rpx;
+}
+
+.font-24 {
+  font-size: 24rpx;
+}
+
+.font-20 {
+  font-size: 20rpx;
+}

@@ -1,0 +1,4 @@
+.number-big {
+  background-color: red;
+  border: 1rpx solid black;
+}

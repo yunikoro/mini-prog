@@ -31,7 +31,8 @@
 				{
 					"id": -1,
 					"name": "couponList",
-					"pathName": "pages/couponList/couponList"
+					"pathName": "pages/couponList/couponList",
+					"query": ""
 				}
 			]
 		}

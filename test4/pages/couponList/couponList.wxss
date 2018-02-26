@@ -1,5 +1,6 @@
 @import "./flex-util.wxss";
 @import "./font-size.wxss";
+@import "./color.wxss";
 
 .coupon-list {
   height: 100vh;
@@ -20,7 +21,20 @@
 }
 
 .coupon-item .main-title {
-  line-height: 60rpx;
   color: #F39700;
-  font-weight: blod;
+  font-weight: bold;
+}
+
+.coupon-item .sub-title {
+  color: #606060;
+}
+
+.coupon-item .amount {
+  color: #D10303;
+  font-weight: bold;
+  text-align: center;
+}
+
+.coupon-item .explain {
+  color: #999999;
 }

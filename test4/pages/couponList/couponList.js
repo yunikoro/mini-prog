@@ -1,4 +1,7 @@
 // pages/couponList/couponList.js
+
+var httpService = require('../../services/httpService');
+
 Page({
 
   /**
@@ -12,7 +15,14 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    httpService(httpService.baseUrl + '/wechat/getcoupon', {}, 'POST', 
+    function() {
+      wx.showLoading({
+        title: '加载中',
+      })
+    }, function(res) {
+      wx.hideLoading();
+    }, null, null);
   },
 
   /**

@@ -21,8 +21,16 @@ Page({
         title: '加载中',
       })
     }, function(res) {
+      if(res.statusCode == 200 && res.data.code == 0) {
+        this.setData({
+          couponList: res.data.data
+        });
+      } else {
+        
+      }
+      console.log(res);
       wx.hideLoading();
-    }, null, null);
+    }.bind(this), null, null);
   },
 
   /**

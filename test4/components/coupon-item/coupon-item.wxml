@@ -1,0 +1,16 @@
+<view class="coupon-item to-flex in-col set-bet">
+  <view class="to-flex set-bet">
+    <view class="to-flex in-col">
+      <text class="main-title font-36 coupon-red-color">{{titleTag}}</text>
+      <text class="font-24 sub-title">有效期至<text>{{expireTag}}</text></text>
+    </view>
+    <view class="to-flex in-col set-bet">
+      <text wx:if="{{couponType == 4 || couponType == 6}}" class="font-64 coupon-red-color amount">{{amountTag}}<text class="font-36">折</text></text>
+      <text wx:else class="font-64 coupon-red-color amount">{{amountTag}}</text>
+      <text class="font-24 sub-title">{{baseAmountTag}}</text>
+    </view> 
+  </view>
+  <view>
+    <text class="font-20 explain">({{explain}})</text>
+  </view>
+</view>

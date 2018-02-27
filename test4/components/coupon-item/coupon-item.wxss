@@ -2,12 +2,6 @@
 @import "/style/font-size.wxss";
 @import "/style/color.wxss";
 
-.coupon-list {
-  height: 100vh;
-  background-color: #F3F3F3;
-  padding: 0 3.33333vw;
-}
-
 .coupon-item {
   margin-top: 21.5rpx;
   padding: 3vw 8vw 0.5vw 8vw;
@@ -15,14 +9,14 @@
   background-image: url('https://img.mobilemart.cn/ticket__background@2x.png');
   background-repeat: no-repeat;
   background-size: contain;
-  box-shadow: 0 6rpx 16rpx -10rpx rgba(243,151,0, 0.5) ;
+  box-shadow: 0 7rpx 26rpx -14rpx rgba(243,151,0, 0.7) ;
   width: 93.333vw;
   height: calc(93.333vw/7*2);
 }
 
 .coupon-item .main-title {
-  color: #F39700;
-  font-weight: bold;
+  line-height: 63rpx;
+  padding-top: 14rpx; 
 }
 
 .coupon-item .sub-title {

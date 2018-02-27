@@ -1,0 +1,7 @@
+.mgo-yellow-color {
+  color: #F39700;
+}
+
+.coupon-red-color {
+  color: #D10303;
+}

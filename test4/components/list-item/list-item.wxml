@@ -1,0 +1,6 @@
+<view style="border: 6px solid black; background-color: #ABCDEF;">
+  <text>id: </text>
+  <input type="number" value="{{what}}" bindinput="write" />
+  <text>Name: </text>
+  <text>{{name}}</text>
+</view>

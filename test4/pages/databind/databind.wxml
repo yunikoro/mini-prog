@@ -1,7 +1,14 @@
 <view>
-  <block wx:for="{{[4, 5, 6]}}">
+  <input type="number" value="{{id}}" bindinput="strUpdate" />
+  &
+  <input type="text" />
+  外面display
+  <text>{{id}}</text>
+  <list-item what="{{id}}" name="laka" bindgetWhat="gethow"></list-item>
+  <list-item what="{{id}}" name="laka" bindgetWhat="gethow"></list-item>
+  <block wx:for="{{arrayList}}" wx:item="item">
     <view class="center">
-      <text>{{index}}: {{item}}</text>
+      <text>{{index}}: {{item.id}}</text>
     </view>
   </block>
 </view>

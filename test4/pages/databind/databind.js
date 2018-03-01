@@ -2,11 +2,13 @@
 Page({
 
   data: {
-    name: 'zhangsan'
+    name: 'zhangsan',
+    arrayList: [],
+    id: 213
   },
 
   changeTo: function() {
-    this.set
+    
   },
 
   onLoad: function (options) {
@@ -14,7 +16,15 @@ Page({
   },
 
   onReady: function () {
-  
+    // setInterval(function() {
+    //   console.log('push');
+    //   console.log();
+    //   var arrayList = this.data.arrayList;
+    //   arrayList.push({id: 6});
+    //   this.setData({
+    //     arrayList: arrayList
+    //   })
+    // }.bind(this), 1000);
   },
 
   onShow: function () {
@@ -26,7 +36,7 @@ Page({
   },
 
   onUnload: function () {
-  
+
   },
 
   onPullDownRefresh: function () {
@@ -39,5 +49,19 @@ Page({
 
   onShareAppMessage: function () {
   
+  },
+
+  strUpdate: function(e) {
+    this.setData({
+      'id': e.detail.value
+    })
+  },
+
+  gethow: function(e) {
+    console.log(e);
+    this.setData({
+      'id': e.detail.what
+    })
   }
+
 })
